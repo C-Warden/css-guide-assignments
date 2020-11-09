@@ -1,0 +1,28 @@
+h1 {
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+li + li {
+    background-color: black;
+    color: white;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+    
+}
+
+.diffcolor code {
+    color: green;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ol li {
+    background-color: black;
+    color: white;    
+}
