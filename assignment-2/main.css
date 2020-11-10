@@ -1,0 +1,28 @@
+.first-box {
+    padding: 6px 10px 3px 20px;
+    border: 5px dashed blueviolet;
+    margin: 8px 10px 5px 16px;
+    height: 300px;
+    width: 40%;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+.second-box {
+    padding: 6px 10px 3px 20px;
+    border: 5px dashed blueviolet;
+    margin: 16px 8px 5px 10px;
+    height: 300px;
+    width: 40%;
+
+
+}
+
+div {
+    display: inline-block;
+}
+
+.second-box:hover {
+    color: white;
+    background-color: crimson;
+    border-color: orangered;
+} 
