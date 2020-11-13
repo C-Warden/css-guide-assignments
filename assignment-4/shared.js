@@ -8,11 +8,14 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
         modal.style.display = 'block';
         backdrop.style.display = 'block';
     });
-} 
+}
 
-noButton.addEventListener('click', function() {
-modal.style.display = 'none';
-backdrop.style.display = 'none';
-});
+const closeModal = () => {
+    modal.style.display = 'none';
+    if (modal) {
+        backdrop.classList.add('open');
+    }
+};
 
- 
+noButton.addEventListener('click', closeModal);
+backdrop.addEventListener('click', closeModal);
